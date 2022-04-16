@@ -1,0 +1,10 @@
+.accordian-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container {
+  border-bottom: 0.5px solid rgb(214, 194, 194);
+}
