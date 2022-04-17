@@ -1,0 +1,17 @@
+.snackbar-container {
+  position: absolute;
+  bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+  width: 60%;
+  border-radius: 50%;
+}
+
+.snackbar-text {
+    background-color: darkgray;
+    color: white;
+}
