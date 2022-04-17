@@ -15,7 +15,7 @@ const NestedAccordian = ({ title = '', nestedChild = [] }) => {
             </div>
             {nestedChild?.length && expanded ? (
                 <div style={{marginLeft: 10}}>
-                    {nestedChild.map(child => <NestedAccordian {...child} />)}
+                    {nestedChild.map((child, index) => <NestedAccordian key={index} {...child} />)}
                 </div>
             ): null}
         </div>

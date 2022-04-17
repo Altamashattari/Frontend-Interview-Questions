@@ -1,0 +1,29 @@
+.tabsContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.tabsHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+}
+
+.tabHeaderItem {
+    border-top: 0.5px solid gray;
+    border-left: 0.5px solid gray;
+    border-bottom: 0.5px solid gray;
+    width: 100px;
+}
+
+.selectedTab {
+    background-color: darkgray;
+    color: white;
+}
+
+.selectedTabDetail {
+    height: 300px;
+    width: 400px;
+
+}
