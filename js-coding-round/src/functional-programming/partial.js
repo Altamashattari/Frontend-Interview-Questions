@@ -6,13 +6,14 @@ function partialLeft (f, ...outerArgs) {
     }
 }
 
-// // Arguments to this function are passed on the right
+// Arguments to this function are passed on the right
 function partialRight (f, ...outerArgs) {
     return function(...innerArgs) {
         const args = [...innerArgs, ...outerArgs];
         return f.apply(this, args);
     }
 }
+
 /**
  * Arguments to this function serve as a template.
  * Undefined values in the argument list are filled with values from the inner args
